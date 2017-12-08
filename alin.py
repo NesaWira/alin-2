@@ -34,12 +34,10 @@ helpmsg ="""╔═════════════════
 ╠➩〘Speed〙
 ╠➩〘Status〙
 ╚═════════════════
-UTAMAKAN HURUF BESAR DI AWAL KATA
 
 
-              ✯==== Creator ====✯
-    
-   http://line.me/ti/p/~muhmursalind
+
+            
 """
 
 helppro ="""╔═════════════════
@@ -50,9 +48,7 @@ helppro ="""╔═════════════════
 ╠➩〘Invit on/off〙
 ╠➩〘Cancel on/off〙
 ╚═════════════════
-              ✯==== Creator ====✯
-    
-   http://line.me/ti/p/~muhmursalind
+             
 """
 
 helpself ="""╔═════════════════
@@ -83,9 +79,7 @@ helpself ="""╔═════════════════
 ╠➩〘Micadd @〙
 ╠➩〘Micdel @〙
 ╚═════════════════
-              ✯==== Creator ====✯
-    
-   http://line.me/ti/p/~muhmursalind
+             
 """
 
 helpset ="""╔═════════════════
@@ -102,9 +96,7 @@ helpset ="""╔═════════════════
 ╠➩〘Read on/off〙
 ╠➩〘Simisimi on/off〙
 ╚═════════════════
-              ✯==== Creator ====✯
-    
-   http://line.me/ti/p/~muhmursalind
+             
 """
 
 helpgrup ="""╔═════════════════
@@ -131,9 +123,7 @@ helpgrup ="""╔═════════════════
 ╠➩〘Contactban〙
 ╠➩〘Midban〙
 ╚═════════════════
-              ✯==== Creator ====✯
-    
-   http://line.me/ti/p/~muhmursalind
+             
 """
 
 helpmed ="""╔═════════════════
@@ -151,13 +141,11 @@ helpmed ="""╔═════════════════
 ╠➩〘profileig 〙
 ╠➩〘checkdate 〙
 ╚═════════════════
-              ✯==== Creator ====✯
-    
-   http://line.me/ti/p/~muhmursalind
+              
 """
 
 mid = cl.getProfile().mid
-Bots=[mid]
+Bots=["u0710a42a75e0a476ad687639db8c069c"]
 
 wait = {
     "likeOn":False,
