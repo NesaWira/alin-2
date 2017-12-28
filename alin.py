@@ -11,20 +11,19 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 
-#cl = LINETCR.LINE()
-#cl.login(qr=True)
-#cl.loginResult()
-
 cl = LINETCR.LINE()
-cl.login(token="0005cn+1bQoGe5FKi4ejzK+bRwIoA35CkwYaKJrwLcB1V+X7F+gyOz4BY7q2anSb/D7QLhh+xvUe5ugQ6VRaHxIIcpiHN3rik/SibcEITfGLlSqDySH2R/K7PtOHarNmCXpoXc7DsXZd+iiwfUcNha7DKHOIdAtcO2loXsF5Rhd9glxK+Vb5Jm64E+fuUDaK5mxYMSsC+FfB6ezTWaDRaPW2nuW6YNqiJfNN5+8m77jqZQ/PE9+zoQW1OFvFQLnuH/hGXJV7U94Z2rzIgKfw2/PaRcjwNKikYZrBibnUQagkrWfOn64LcZILeVVescyDfnUBpRMOIPpvh8MkHLbmLsZZ2A==")
+cl.login(token="EoIqzx2M5elMw6cwaYoc.bXcKkNxGPhATAhy524WgNa.g1sawYKc/6ImB5+eUS+jxxr0sJH5edfDaGQCuV2MLp0=")
 cl.loginResult()
+
+#cl = LINETCR.LINE()
+#cl.login(token="0005cn+1bQoGe5FKi4ejzK+bRwIoA35CkwYaKJrwLcB1V+X7F+gyOz4BY7q2anSb/D7QLhh+xvUe5ugQ6VRaHxIIcpiHN3rik/SibcEITfGLlSqDySH2R/K7PtOHarNmCXpoXc7DsXZd+iiwfUcNha7DKHOIdAtcO2loXsF5Rhd9glxK+Vb5Jm64E+fuUDaK5mxYMSsC+FfB6ezTWaDRaPW2nuW6YNqiJfNN5+8m77jqZQ/PE9+zoQW1OFvFQLnuH/hGXJV7U94Z2rzIgKfw2/PaRcjwNKikYZrBibnUQagkrWfOn64LcZILeVVescyDfnUBpRMOIPpvh8MkHLbmLsZZ2A==")
+#cl.loginResult()
 
 print "==================[Login Success]==================="
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpmsg ="""╔═════════════════
-║       ✟Ƥɾøтøтуρє✟一�:緑   
+helpmsg ="""╔═════════════════      
 ╠═════════════════
 ╠➩〘Help protect〙
 ╠➩〘Help self〙
@@ -41,7 +40,7 @@ helpmsg ="""╔═════════════════
 """
 
 helppro ="""╔═════════════════
-║       ✟Ƥɾøтøтуρє✟一�:緑   
+║         
 ╠═════════════════
 ╠➩〘Protect on/off〙
 ╠➩〘Qr on/off〙
@@ -83,7 +82,7 @@ helpself ="""╔═════════════════
 """
 
 helpset ="""╔═════════════════
-║       ✟Ƥɾøтøтуρє✟一�:緑   
+║          
 ╠═════════════════
 ╠➩〘Contact on/off〙
 ╠➩〘Autojoin on/off〙
@@ -100,7 +99,7 @@ helpset ="""╔═════════════════
 """
 
 helpgrup ="""╔═════════════════
-║       ✟Ƥɾøтøтуρє✟一�:緑   
+║          
 ╠═════════════════
 ╠➩〘Link on/off〙
 ╠➩〘Url〙
@@ -127,7 +126,7 @@ helpgrup ="""╔═════════════════
 """
 
 helpmed ="""╔═════════════════
-║       ✟Ƥɾøтøтуρє✟一�:緑   
+║          
 ╠═════════════════
 ╠➩〘Kalender〙
 ╠➩〘tr-id 〙
